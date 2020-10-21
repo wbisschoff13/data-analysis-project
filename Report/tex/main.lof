@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The Resulting Dataframe}}{1}{figure.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The First Entry's CustomsResponses DataFrame}}{2}{figure.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Number of Customs Responses for the First Ten Entries}}{2}{figure.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces First 20 Entries of the Sorted Dataframe}}{3}{figure.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces First Twenty Entries of the Dataframe with Added Categories}}{4}{figure.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces First Twenty Entries of the Dataframe with Added Output Variables}}{5}{figure.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces First Six Entries of the Number of Transactions for each Customs Office}}{6}{figure.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces First Six Entries of the Number of Transactions for each Country of Import}}{6}{figure.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces The Number of Sub Categories per Category}}{7}{figure.9}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces First Five Entries of Monthly Entries by Export Country}}{7}{figure.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces First Five Entries of Fractions of Document Requests by Export Country}}{8}{figure.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces First Five Entries of Accumulated Fractions of Document Requests by Export Country}}{8}{figure.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces List of All Categories that Declarations were Calculated For}}{8}{figure.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces First Ten Entries of Transaction Category Values}}{9}{figure.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Pearson Correlation Coefficients for each Category}}{10}{figure.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Bar Graph of Pearson Correlation Coefficients}}{10}{figure.7}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Number of Document Requests vs Fraction of Document Requests of SP Source}}{12}{figure.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Number of Document Requests vs Fraction of Document Requests of HS Code}}{12}{figure.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Number of Document Requests vs Fraction of Document Requests of Export Country}}{12}{figure.3}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Prediction Accuracy for Different Targets per Threshold Value}}{14}{figure.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Plot of Prediction Accuracy for Different Targets per Threshold Value}}{14}{figure.2}

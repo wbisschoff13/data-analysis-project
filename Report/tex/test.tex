@@ -1,0 +1,101 @@
+\subsubsection{Introduction}\label{introduction}
+
+A DC motor is to be characterized and a mathematical model is to be
+derived.
+
+\subsubsection{First Order Model}\label{first-order-model}
+
+\subsubsection{The Method}\label{the-method}
+
+Calculate the armature resistance $R$ by measuring the armature
+current $I$ when supplying voltage $V$ to a short-circuit and
+measuring the armature voltage $E$ when supplying voltage to the open
+circuit.
+
+Applying an AC voltage and determining the armature voltage and current
+allows for the calculation of the armature impedance $Z$. The
+inductance $L$ can be calculated from the reactance $X$ of the
+impedance.
+
+The back-EMF constant $K_e$ can be determined from
+
+ \begin{equation} 
+K_e = \frac{\Delta E}{\Delta\omega}, 
+ \end{equation} 
+ and the torque constant
+$K_t$ can be determined as $K_t = K_e$.
+
+The damping coefficient $b$ can be determined from
+
+ \begin{equation} 
+b\omega = K_tI_a, 
+ \end{equation} 
+ which is derived from 
+ \begin{equation} 
+T=K_ti
+ \end{equation} 
+ and
+
+ \begin{equation} 
+T = J\dot\omega +b\omega, 
+ \end{equation} 
+ while keeping the system at a steady
+state so that $\dot\omega = 0$.
+
+The motor inertia $J$ can be calculated from
+
+ \begin{equation} 
+J = -\frac{T}{\frac{dw}{dt}}.
+ \end{equation} 
+
+
+\subsubsection{Results}\label{results}
+
+The resistance $R = 10,42\Omega$ can be calculated from Table 1.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+$V_f$ & $E_a$ & $I_a$\tabularnewline
+\midrule
+\endhead
+0 & 19.10 & 1,90\tabularnewline
+4 & 23,03 & 2,25\tabularnewline
+8 & 26,19 & 2,58\tabularnewline
+12 & 29,82 & 2,81\tabularnewline
+16 & 34,16 & 3,13\tabularnewline
+20 & 37,67 & 3,48\tabularnewline
+\bottomrule
+\end{longtable}
+
+The back-EMF constant and the torque constants can be calculated as
+$K_t = K_e = 0.728$, the damping coefficient can be calculated as
+$b = 0.014$. The inductance $L = 0.15$.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Ea & Ia & w\tabularnewline
+\midrule
+\endhead
+24 & 1,186 & 12,15\tabularnewline
+38 & 1,408 & 28,48\tabularnewline
+55 & 1,605 & 49,95\tabularnewline
+67 & 1,67 & 66,71\tabularnewline
+76 & 1,705 & 79,27\tabularnewline
+84 & 1,72 & 89,12\tabularnewline
+92 & 1,738 & 100,16\tabularnewline
+96 & 1,747 & 109,01\tabularnewline
+105 & 1,752 & 120,32\tabularnewline
+115 & 1,78 & 135,40\tabularnewline
+128 & 1,76 & 155,72\tabularnewline
+\bottomrule
+\end{longtable}
+
+The inertia $J = 0,022$.
+
+The transfer function $P(s)$ can be determined as
+
+
+ \begin{equation} 
+P(s)=\frac{\omega(s)}{V(s)}=\frac{K_t}{(Js+b)(Ls+R)+K_eK_t}.
+ \end{equation} 
+
